@@ -1,0 +1,52 @@
+.row-image {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+.bid-amount-view {
+    width: 90%;
+    background: #1a1825;
+    color: rgb(214, 209, 209);
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.text-cell-header {
+    color: white;
+}
+.MuiDataGrid-columnSeparator{
+    visibility: hidden !important
+}
+.MuiDataGrid-cell {
+    border-bottom: none !important;
+}
+.MuiDataGrid-columnHeaders {
+    border-bottom: none !important;
+}
+.MuiDataGrid-root {
+    border: none !important;
+}
+.btn-cell {
+    background-color: #393749;
+    color: white;
+    border: none;
+}
+.date-view {
+    background: #1a1825;
+    color: rgb(214, 209, 209);
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+.MuiTablePagination-displayedRows  {
+    color: white !important;
+}
+.MuiTablePagination-root {
+    color: white !important
+}
+.MuiIconButton-root.Mui-disabled {
+    color: rgb(177, 174, 174) !important;
+}
